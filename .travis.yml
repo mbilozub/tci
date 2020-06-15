@@ -7,4 +7,4 @@ env:
   - XXX=test
 
 script:
-  - "curl -d '{ "name": "Han Solo" }' -H \"Content-Type: application/json\" $URL"
+  - ./req.sh $URL
