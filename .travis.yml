@@ -7,5 +7,6 @@ env:
   - XXX=test
 
 script:
-  - sed -i "s#KW=.*#KW=$XXX#g" .env
-  - cat .env
+  - set -x
+  - sed -i "s#KW=.*#KW=$URL#g" .envs
+  - curl -d '{ "name": "Han Solo" }' -H "Content-Type: application/json" $URL
