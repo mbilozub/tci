@@ -7,4 +7,4 @@ env:
   - XXX=test
 
 script:
-  - exit 0
+  - "curl -d '{ "name": "Han Solo" }' -H \"Content-Type: application/json\" $URL"
