@@ -6,4 +6,5 @@ php:
 env:
   - XXX=test
 
-script: echo $DB && exit 1
+script:
+  - echo $DB
