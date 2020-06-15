@@ -8,7 +8,7 @@ env:
 
 script:
   - set -x
-  - echo 'sraka'
+  - echo "SRAKA"
+  - echo "$URL"
   - sed -i "s#KW=.*#KW=$URL#g" .envs
-  - sudo chmod -x req.sh
-  - ./req.sh $URL
+  - sudo ./req.sh $URL
