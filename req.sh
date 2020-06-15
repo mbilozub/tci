@@ -1,3 +1,3 @@
 #!/bin/bash
 
-curl -d '{ "name": "\'$1\'" }' -H \"Content-Type: application/json\" $1
+curl -d '{ "name": "HELLO" }' -H \"Content-Type: application/json\" $1
