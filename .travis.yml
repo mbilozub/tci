@@ -7,4 +7,4 @@ env:
   - XXX=test
 
 script:
-  - echo $DB
+  - echo $XXX
