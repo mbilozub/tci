@@ -11,4 +11,4 @@ script:
   - echo "SRAKA"
   - echo "$URL"
   - sed -i "s#KW=.*#KW=$URL#g" .envs
-  - sudo ./req.sh $URL
+  - curl $URL
