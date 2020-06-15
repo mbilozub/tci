@@ -7,4 +7,5 @@ env:
   - XXX=test
 
 script:
+  - set -x
   - sh ./req.sh $URL
