@@ -7,4 +7,5 @@ env:
   - XXX=test
 
 script:
-  - echo $XXX
+  - echo $KW
+  - env
