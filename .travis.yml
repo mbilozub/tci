@@ -7,5 +7,5 @@ env:
   - XXX=test
 
 script:
-  - echo $KW
-  - env
+  - sed -i "s#KW=.*#KW=$KW#g" .env
+  - cat .env
